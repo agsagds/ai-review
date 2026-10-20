@@ -1,0 +1,24 @@
+[project]
+name = "ai-review"
+version = "0.1.0"
+description = "Code-review agent demos: Haystack vs LangChain"
+requires-python = ">=3.11"
+dependencies = [
+    "haystack-ai",
+    "huggingface-api-haystack",
+    "langchain",
+    "langchain-huggingface",
+    "huggingface_hub",
+    "python-dotenv",
+    "rich",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["review_lib*"]

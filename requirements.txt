@@ -1,0 +1,7 @@
+haystack-ai
+huggingface-api-haystack
+langchain
+langchain-huggingface
+huggingface_hub
+python-dotenv
+rich
